@@ -43,6 +43,9 @@ html,h1,h2,h3,h4,h5,h6,a{
 /*card style*/
 .card-home{
 	background:#f4f4f4;
+    background:rgba(244, 244, 244, 0.2) ;
+    border-color:#7eceaf;
+    border-width: 0px;
 }
 /*home jumbotron style*/
 .bg-cover {
@@ -55,6 +58,11 @@ html,h1,h2,h3,h4,h5,h6,a{
 
 
 
+/* vertical line */
+.vl {
+    border-left: 4px solid #7eceaf;
+    height: 50px;
+  }
 
 
 /* chi siamo */

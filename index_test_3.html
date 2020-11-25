@@ -25,18 +25,18 @@
             <div class="collapse navbar-collapse" id="navbar1">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#" data-target="#contact:not(.show)" data-toggle="collapse" data-parent="#page-content">servizi</a>
+                        <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">servizi</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-target="#chisiamo:not(.show)" data-toggle="collapse">chi siamo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-target="#page3:not(.show)" data-toggle="collapse">dove e quando</a>
+                        <a class="nav-link" href="#" data-target="#doveequando:not(.show)" data-toggle="collapse">dove e quando</a>
                     </li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#modalAbout" data-toggle="modal">contattaci</a>
+                        <a class="nav-link" href="#contattaci" data-toggle="modal">contattaci</a>
                     </li>
                 </ul>
             </div>
@@ -48,124 +48,148 @@
                 <!-- home -->
                 <div id="home" class="collapse show" data-parent="#page-content" >
 
-                    <div class="container-fluid" >
+                    <div class="container-fluid" >            
+                       
+                                
+                        <div class="container w-85">
 
-                        <!-- jumbotron -->
-                        <div class="jumbotron bg-cover" >
-                            <div class="container">
-                                <h1 class="display-4">  benevenuti </h1>
-
+                            <div class="jumbotron bg-cover" >
                                 <div class="row">
-                                    <div class="col-lg ">
-                                        <p class="lead">piccola descrizione</p>
-                                        <hr class="my-4">
-                                        <p>altro.</p>
-                                        <p class="lead">
-                                            <a class="btn btn-outline-secondary btn-sm" href="#chisiamo" role="button"> chi siamo </a>
-                                        </p>
-                                    </div>
-                                    <div class="col-sm-4 ">
-                                        <img src="images/logo.svg" class="img-fluid" alt="Responsive image"> 
-                                    </div>
-                                </div>
-                            </div>
-                        
+                                    <div class="col-sm-6">
+                                  
+                                        <!-- home container -->
+                                        <div class="container">
+                                            <h1 class="display-4">  benevenuti </h1>
 
-
-                            <!-- table of infos -->
-                            <div class="row" style="margin-top:10rem;" >
-                                <div class="col-sm-4 mb-4">
-                                    
-                                    <!-- orari -->
-                                    <div class="card card-home"   >
-                                        <div class="card-body">
-                                            <h3 class="card-title"> <mark>orari</mark>: </h3>
+                                            <p class="lead">piccola descrizione</p>
                                             <hr class="my-4">
-                                            <div class="row">
-                                                <div class="col-sm">
-                                                    <h4 class="card-text">lun-ven</h4>
-                                                </div>
-                                                <div class="col-sm">
-                                                    <h4 class="card-text">  8:30 - 19:30</h4> 
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm">
-                                                    <h4 class="card-text">sab</h4>
-                                                </div>
-                                                <div class="col-sm">
-                                                    <h4 class="card-text">  9:00 - 13:00</h4>
-                                                </div>
-                                            </div>
+                                            <p>altro.</p>
+                                            <p class="lead">
+                                                <a class="btn btn-outline-secondary btn-sm "  href="#" data-target="#chisiamo:not(.show)" data-toggle="collapse" role="button"> chi siamo </a>
+                                            </p>
                                         </div>
+                                        
                                     </div>
                                     
-                                </div> <!-- end column -->
-                                <div class="col-sm-4 mb-4">
+                                    <div class="col-sm-3">
 
-                                    <!-- indirizzo -->
-                                    <div class="card card-home"   >
-                                        <div class="card-body">
-                                            <h3 class="card-title"> <mark>indirizzo</mark>: </h3>
-                                            <hr class="my-4">
-                                            <h4 class="card-text"> via Carducci 9, Milano</h4>
-                                            <hr class="my-3">
-                                            <button  class="btn btn-outline-secondary btn-sm" type="button" data-toggle="collapse" data-target="#mapCollapse" > 
-                                                <h4>mappa</h4>
-                                            </button>
+                                        <div class="container ">
+                                                    
+                                            <!-- orari -->
+                                            <div class="card card-home "  style="width: 25rem;" >
+                                                <div class="card-body">
+                                                    <h3 class="card-title"> <mark>orari</mark>: </h3>
+                                                    <hr class="my-4">
+                                                    <div class="row">
+                                                        <div class="col-sm">
+                                                            <h4 class="card-text">lun-ven</h4>
+                                                        </div>
+                                                        <div class="col-sm">
+                                                            <h4 class="card-text">  8:30 - 19:30</h4> 
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm">
+                                                            <h4 class="card-text">sab</h4>
+                                                        </div>
+                                                        <div class="col-sm">
+                                                            <h4 class="card-text">  9:00 - 13:00</h4>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div> 
+
+                                        </div>
+                                        <div class="container">
+
+                                            <!-- indirizzo -->
+                                            <div class="card card-home"   style="width: 25rem;">
+                                                <div class="card-body">
+                                                    <h3 class="card-title"> <mark>indirizzo</mark>: </h3>
+                                                    <hr class="my-4">
+                                                    <h4 class="card-text"> via Carducci 9, Milano</h4>
+                                                    <hr class="my-3">
+                                                    <button  class="btn btn-outline-secondary btn-sm" type="button" data-toggle="collapse" data-target="#mapCollapse" > 
+                                                        mappa
+                                                    </button>
+                                                </div>
+                                            </div>       
                                             <div class="collapse" id="mapCollapse">
                                                 <div class="card card-body">
                                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.1661500317837!2d9.174164015939573!3d45.46645684131332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c151a8c9c49f%3A0xb6dbf884b4c9eb8a!2sVia%20Giosu%C3%A8%20Carducci%2C%209%2C%2020123%20Milano%20MI%2C%20Italia!5e0!3m2!1sit!2sfr!4v1606322806267!5m2!1sit!2sfr" 
                                                     frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                    
-                                </div> <!-- end column -->
-                                <div class="col-sm-4 mb-4">
 
-                                    <!-- numeri -->
-                                    <div class="card card-home"   >
-                                        <div class="card-body">
-                                            <h3 class="card-title"> <mark>numeri</mark>: </h3>
-                                            <hr class="my-4">
-                                            <div class="row">
-                                                <div class="col-sm">
-                                                    <h4 class="card-text">fisso</h4>
-                                                </div>
-                                                <div class="col-sm">
-                                                    <h4 class="card-text"> 02 0997 1227</h4> 
+                                        </div>
+                                        <div class="container">
+                                            
+                                            <!-- numeri -->
+                                            <div class="card card-home"  style="width: 25rem;">
+                                                <div class="card-body">
+                                                    <h3 class="card-title"> <mark>numeri</mark>: </h3>
+                                                    <hr class="my-4">
+                                                    <div class="row">
+                                                        <div class="col-sm">
+                                                            <h4 class="card-text">fisso</h4>
+                                                        </div>
+                                                        <div class="col-sm">
+                                                            <h4 class="card-text"> 02 0997 1227</h4> 
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm">
+                                                            <h4 class="card-text">portatile</h4>
+                                                        </div>
+                                                        <div class="col-sm">
+                                                            <h4 class="card-text"> 340 113 3846</h4>
+                                                        </div>
+                                                    </div>
+                                                    <hr class="my-4">
+                                                    <button href="#contattaci" data-toggle="modal" class="btn btn-outline-secondary btn-sm"> contattaci </button> </td>    
                                                 </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-sm">
-                                                    <h4 class="card-text">portatile</h4>
-                                                </div>
-                                                <div class="col-sm">
-                                                    <h4 class="card-text"> 340 113 3846</h4>
-                                                </div>
-                                            </div>
-                                            <hr class="my-4">
-                                            <button href="#modalAbout" class="btn btn-outline-secondary btn-sm"> <h4>contattaci</h4></button> </td>    
+
+
                                         </div>
+
                                     </div>
 
-
-                                </div> <!-- end column -->
-                            </div> <!-- end row -->
-                        </div> <!-- end jumbotron --> 
+                                </div>
+                       
+                            </div> <!-- end jumbotron --> 
+                        </div>                      
+                       
+                    
                     </div> <!-- end container -->
          
                 </div> <!-- end container -->
-                <!-- page contacts -->
-                <div id="contact" class="collapse" data-parent="#page-content">
-                    <h1>Contact</h1>
-                    <p> Biodiesel taxidermy organic post-ironic, Intelligp v PBR narwhal sustainable mixtape swag wolf squid tote bag. Tote bag cronut semiotics, raw denim deep v taxidermy messenger bag. Tofu YOLO Etsy, direct trade ethical Odd Future jean shorts paleo. Forage Shoreditch tousled aesthetic irony, street art organic Bushwick artisan cliche semiotics ugh synth chillwave meditation. Shabby chic lomo plaid vinyl chambray Vice. Vice sustainable cardigan, Williamsburg master cleanse hella DIY 90's blog.</p>
+                <!-- page servizi -->
+                <div id="servizi" class="collapse" data-parent="#page-content">                  
+                    <h1>servizi</h1>               
+                    <p>
+                        Nella <mark>Parafarmacia Letteraria</mark> puoi usufruire dei seguenti servizi:
+                    </p>
+                    <ul>
+                        <li> <mark>Prenotazione</mark> prodotti tramite telefono, whatsapp o email </li>
+                        <li> Avviso all'arrivo dei prodotti ordinati </li>
+                        <li> Consegna a domicilio </li>
+                        <li> Consegna tramite <mark>Glovo</mark> </li>
+                        <li> Trattamenti terapeutici </li>
+                        <li> Foratura delle orecchie </li>
+                        <li> Misurazione della pressione </li>
+                        <li> Fornitura e reintegro cassette pronto soccorso </li>
+                        <li> Prodotti veterinari con e senza ricetta </li>
+                        <li> Prodotti sportivi </li>
+                        <li> Prodotti per bambini </li>
+                        <li> ... </li>
+                    </ul>      
+                    </div>            
+
                 </div>
                 <!-- page 2 -->
                 <div id="chisiamo" class="collapse" data-parent="#page-content">
-                    <div class="about" id="chisiamo">
+                    <div class="about" >
                         <div class="container" >
                           <h1 class="text-center"> chi siamo</h1>
                             <div class="row">
@@ -199,8 +223,14 @@
                     </div>
                 </div>
                 <!-- page 3 -->
-                <div id="page3" class="collapse" data-parent="#page-content">
-                    <h1>Page 3</h1> Ethical Kickstarter PBR asymmetrical lo-fi. Dreamcatcher street art Carles, stumptown gluten-free Kickstarter artisan Wes Anderson wolf pug. Godard sustainable you probably haven't heard of them, vegan farm-to-table Williamsburg slow-carb readymade disrupt deep v. Meggings seitan Wes Anderson semiotics, cliche American Apparel whatever. Helvetica cray plaid, vegan brunch Banksy leggings +1 direct trade. Wayfarers codeply PBR selfies. Banh mi McSweeney's Shoreditch selfies, forage fingerstache food truck occupy YOLO Pitchfork fixie iPhone fanny pack art party Portland.
+                <div id="doveequando" class="collapse" data-parent="#page-content">
+                    <h1>Dove e quando</h1> 
+                    ome arrivare?
+                    <ul>
+                        <li> Fermata metropolitana CADORNA M2 </li>
+                        <li> Tram numero 16,19 fermata Largo d'Ancona</li>
+                        <li> Bus 99,58 fermata Largo d'Ancona </li>
+                    </ul>
                 </div>
             </div>
         </main>
@@ -209,16 +239,35 @@
             <div>Footer</div>
         </footer>
 
-        <!-- modal about -->
-        <div id="modalAbout" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <!-- modal contattaci -->
+        <div id="contattaci" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h3 id="myModalLabel">About</h3>
+                        <h3 id="myModalLabel">contattaci</h3>
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                     </div>
                     <div class="modal-body">
-                        <p>One fine body…</p>
+                            <div class="container">
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-8 col-sm-12 right">
+                                           <div class="form-group">
+                                                <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+                                           </div>
+                                           <div class="form-group">
+                                                <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+                                           </div>
+                                           <div class="form-group">
+                                                <textarea class="form-control form-control-lg">
+                                                    
+                                                </textarea>
+                                           </div>
+                                           <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                     </div>
                     <div class="modal-footer">
                         <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
