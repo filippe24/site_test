@@ -1,107 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Parafarmacia Letteraria </title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	 <!-- add bootstrap css file -->
-	 <!-- Latest compiled and minified CSS -->
-     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-     <link rel="stylesheet" type="text/css" href="css/main.css">
-
+	  <title>Parafarmacia Letteraria </title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <!-- add bootstrap css file -->
+	  <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg fixed-top">
-	  
-	  <a class="navbar-brand" href="#">
-		<img src="images/logo.svg" width="100" height="30" class="d-inline-block align-top" alt="">
-	  </a>	  	  
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+	  <!-- image -->
+	  <a class="navbar-brand" data-value="home" href="#">
+		  <img src="images/logo.svg" width="100" height="30" class="d-inline-block align-top" alt="">
+    </a>	 
+    <!-- button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- collapse div -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <a class="nav-item nav-link  active" data-value="doveequando" href="#"> dove e quando<span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" data-value="servizi" href="#">servizi</a>
+        <a class="nav-item nav-link" data-value="chisiamo" href="#">chi siamo</a>
+        <a class="nav-item nav-link" data-value="contattaci" href="#">contattaci</a>
+        </ul> 
+      </div>
+  </nav>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-			<a class="nav-item nav-link  active" data-value="doveequando" href="#">Dove e Quando <span class="sr-only">(current)</span></a>
-			<a class="nav-item nav-link" data-value="servizi" href="#">Servizi</a>
-			<a class="nav-item nav-link" data-value="chisiamo" href="#">Chi siamo</a>
-	      	<!-- <li class="nav-item active">
-	        	<a class="nav-link" data-value="doveequando" href="#">Dove e Quando <span class="sr-only">(current)</span></a>
-	     	 </li>
-	      	<li class="nav-item">
-	        	<a class="nav-link " data-value="servizi" href="#">Servizi</a>
-	      	</li>
-	      	<li class="nav-item">
-	        	<a class="nav-link " data-value="chisiamo" href="#">Chi siamo</a>
-	      	</li> -->
-	    </ul> 
-	  </div>
 
-	</nav>
-<!-- header -->
-<header class="header ">
-	<div class="overlay"></div>
-	 <div class="container">
-		   <div class="description ">
-		<h1 class="display-3">
-			Parafarmacia Letteraria
-		</h1>
-		<p>
-			<table class="display-4" cellspacing="2" cellpadding="0">
-				<tr>
-					<th>> orari:</th>
-				</tr>
-				<tr>
-					<td>lun-ven</td>
-					<td> 8:30 - 19:30 </td>
-				</tr>
-				
-				<tr>
-					<td>sab</td>
-					<td> 9:00 - 13:00 </td>
-				</tr>
-				</table>
-				<table class="display-4" cellspacing="2" cellpadding="0">
-					<tr>
-						<th>> indirizzo:</th>
-					</tr>
-					<tr>
-						<td>via Carducci 9, Milano</td>
-					</tr>				
-					</table>
-		</p>
-		<button class="btn btn-outline-secondary btn-lg">See more</button>
-		
-	</div>
-	 </div>
-	
-  </header>
+  <!-- HOME -->
+  <!-- header -->
+  <!-- <header class="header"> -->
+    <!-- <div class="jumbotron  text-left" style="margin-bottom:0"> -->
+      <div class="container-fluid" style="margin-top:60px" id="home">
+        <div class="row" style="margin-left:60px">
+          <div class="col-lg-5 mb-4">
+            <p>
+              <!-- table 1 -->
+              <table >
+                <tr>
+                  <th><h3> <mark>orari</mark>: </h3></th>
+                </tr>
+                <tr>
+                  <td> <h4>lun-ven</h4> </td>
+                  <td> <h4>  8:30 - 19:30</h4>     </td>
+                </tr> 
+                <tr>
+                  <td> <h4>sab</h4>     </td>
+                  <td> <h4>  9:00 - 13:00</h4>     </td>
+                </tr>
+              </table>
+              <hr class="my-4">
+              <!-- table 2 -->
+              <table >
+                <tr>
+                  <th><h3> <mark>indirizzo</mark>: </h3></th>
+                </tr>
+                <tr>
+                  <td> <h4>via Carducci 9, Milano</h4>  <button class="btn btn-outline-secondary btn-sm"> <h4>dettagli</h4></button> </td>
+                </tr>				
+              </table>
+              <hr class="my-4">
+              <!-- table 3 -->
+              <table >
+                <tr>
+                  <th><h3> <mark>numeri</mark>: </h3></th>
+                </tr>
+                <tr>
+                  <td> <h4>fisso</h4> </td>
+                  <td> <h4>  02 0997 1227</h4>     </td>
+                </tr> 
+                <tr>
+                  <td> <h4>portatile</h4>     </td>
+                  <td> <h4>  340 113 3846</h4>     </td>
+                </tr>
+              </table>
+              <button class="btn btn-outline-secondary btn-sm"> <h4>contattaci</h4></button> </td>
+            </p>
+          </div> <!-- end column -->    
+          <div class="col-lg-7">
+            
+
+            <div class="container-fluid" style="margin-top:60px" >
+                <div class="map-responsive">
+               <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+            <!-- <div id="googleMap" style="width:100%;height:400px;"></div>
+            <script>
+                function myMap() {
+                var mapProp= {
+                  center:new google.maps.LatLng(51.508742,-0.120850),
+                  zoom:5,
+                };
+                var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+                }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script> -->
+
+
+            <!-- <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+                <iframe src="https://maps.google.com/maps?q=new%20delphi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                  frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+
+            <div class="container">
+                <div class="container-fluid m-0 p-0">
+                    <div id="map-container-google-4" class="z-depth-1-half map-container-4" style="height: 500px">
+                      <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                        style="border:0" allowfullscreen></iframe>
+                    </div>  
+                </div>                
+            </div> -->
+
+
+          </div> <!-- end column -->
+
+        </div> <!-- end row -->
+      </div> <!-- end container -->
+    <!-- </div> end jumbotron -->
+  <!-- </header> -->
+
+
+
+
+
+  <div class="container" style="margin-top:30px">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>About Me</h2>
+        <h5>Photo of me:</h5>
+        <div class="fakeimg">Fake Image</div>
+        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        <h3>Some Links</h3>
+        <p>Lorem ipsum dolor sit ame.</p>
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
+        </ul>
+        <hr class="d-sm-none">
+      </div>
+      <div class="col-sm-8">
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Dec 7, 2017</h5>
+        <div class="fakeimg">Fake Image</div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <br>
+        <h2>TITLE HEADING</h2>
+        <h5>Title description, Sep 2, 2017</h5>
+        <div class="fakeimg">Fake Image</div>
+        <p>Some text..</p>
+        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron text-center" style="margin-bottom:0">
+    <p>Footer</p>
+  </div>
+
+<!-- </nav> -->
+
+
+
+
+
+
+
   
   <!-- about section -->
-  <div class="about" id="about">
-	  <div class="container">
-		<h1 class="text-center">About Me</h1>
-		  <div class="row">
-			  <div class="col-lg-4 col-md-4 col-sm-12">
-				  <img src="images/team-3.jpg" class="img-fluid">
-				  <span class="text-justify">S.Web Developer</span>
-			  </div>
-			  <div class="col-lg-8 col-md-8 col-sm-12 desc">
-				
-				  <h3>D.John</h3>
-				  <p>
-					 ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				  </p>
-			  </div>
-		  </div>
-	  </div>
-  </div>
+  <div class="about" id="chisiamo">
+    <div class="container-fluid">
+      <h1 class="text-center"> chi siamo</h1>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+              <img src="images/logo.svg" class="img-fluid">
+              <!-- <span class="text-justify">photo caption</span> -->
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-12 desc">				
+              <!-- <h3>Parafarmacia Letteraria</h3> -->
+            <p>
+                Nella <mark>Parafarmacia Letteraria</mark> le Dottoresse <mark>Francesca Cattaneo</mark> ed <mark>Emanuela Messa</mark> vi accoglieranno con competenza, professionalità e cortesia per fornirvi i giusti consigli per la tutela del vostro benessere psico-fisico.                      Potrete trovare prodotti di alta qualità e a prezzi convenienti, nei seguenti ambiti:
+            </p>
+            <ul>
+                <li> Farmaci da banco (OTC) </li>
+                <li> Farmaci senza obbligo di prescrizione medica (SOP) </li>
+                <li> Prodotti omeopatici </li>
+                <li> Prodotti fitoterapici </li>
+                <li> Integratori alimentari (anche per sportivi) </li>
+                <li> Prodotti per l’infanzia </li>
+                <li> Dermocosmesi </li>
+                <li> Prodotti medicali e per automedicazione </li>
+                <li> Articoli sanitari </li>
+                <li> Prodotti veterinari con e senza ricetta </li>
+            </ul>
+            <p>
+                Il nostro  <mark>“lato letterario”</mark> riguarderà una selezione di libri dedicati alla fitoterapia, alla naturopatia, agli integratori alimentari e al benessere degli amici animali.
+            </p>
+          </div>
+        </div>
+    </div>
+</div>
   
   <!-- portfolio -->
   <div class="portfolio" id="portfolio">
@@ -268,10 +382,10 @@
 		  </form>
 	  </div>
   </div>
-  <!-- add Javasscript file from js file -->
-  <script type="text/javascript" src="js/jquery.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src='js/main.js'></script>
-  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
   </html>

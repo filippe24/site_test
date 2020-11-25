@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#f4f4f4;
+}
+html,h1,h2,h3,h4,h5,h6,a{
+	/* font-family: "Raleway"; */
+	/* font-family: "Inconsolata", sans-serif; */
+	/* font-family: "Roboto", sans-serif; */
+	font-family: 'Noto Serif', serif;
+}
+.navbar{
+	background:#7eceaf;
+}
+.nav-link , .navbar-brand{
+	color: #000000;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #e5e5be;
+	color: #000000;
+
+}
+.navbar-collapse{
+	justify-content: flex-end;
+}
+.navbar-toggler{
+	background:#fff !important;
+}
+/*table style*/
+ th {
+	padding: 20px;
+  }
+
+/*card style*/
+.card-home{
+	background:#f4f4f4;
+}
+/*home jumbotron style*/
+.bg-cover {
+    background-attachment: static;
+    background-position: center;
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(244, 244, 244, 1.0) 100%), url('../images/background/farmacia0.jpg')
+}
+
+
+
+
+
+/* chi siamo */
+.about{
+	margin: 0em;
+	padding: 3em;
+	position: relative;
+}
+.about h1{
+	color:#7eceaf;
+	margin: 0em;
+}
+.about img{
+	height: 100%;
+	width: 100%;
+	border-radius: 10%
+}
+.about span{
+	display: block;
+	color: #888;
+	position: absolute;
+	left: 115px;
+}
+.about .desc{
+	padding: 2em;
+	border-left:4px solid #7eceaf;
+}
+.about .desc h3{
+	color: #10828C;
+}
+.about .desc p{
+	line-height:2;
+	color:#888;
+}
+.about .desc ul{
+	line-height:2;
+	color:#888;
+}
+.about .desc li{
+	line-height:2;
+	color:#888;
+}
