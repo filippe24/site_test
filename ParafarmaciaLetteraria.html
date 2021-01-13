@@ -1,70 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	  <title>Parafarmacia Letteraria </title>
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1">
 	  <!-- add bootstrap css file -->
 	  <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="ParafarmaciaLetteraria_files/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="ParafarmaciaLetteraria_files/style.css">
 </head>
 <body>
-
-
-    <div class="jumbotron-fluid main-logo-color">
-        <div class="container">
-            <div class="text-center  main-logo">
-                <img src="images/logo.svg" height="70" class="align-top" alt="Responsive image">
-                <h6>via Carducci 9 - Milano - 20123</h6>
-            </div>
-        </div>
-    </div>   
-    <!-- <div class="text-center">
-        <img src="images/logo.svg" height="70" class="align-top" alt="Responsive image">
-        <h6>via Carducci 9 - Milano - 20123</h6>
-    </div> -->
 
     <div class="d-flex flex-column min-vh-100">
         
         <!-- navbar -->
-        <nav class="navbar sticky-top navbar-expand-lg sticky-to navbar-dark ">
-            <div class="container"> 
-                <a class="navbar-brand" href="#home" data-target="#home:not(.show)" data-toggle="collapse" data-parent="#page-content">           
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbar1">
-                    <ul class="navbar-nav navbar-center">
-                        <li class="nav-item">  <!-- add active to make it white -->
-                            <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">HOME</a>
-                        </li>     
-                        <li class="nav-item "> <!-- add active to make it white -->
-                            <a class="nav-link" href="#" data-target="#chisiamo:not(.show)" data-toggle="collapse">CHI SIAMO</a>
-                        </li>
-                        <li class="nav-item">  <!-- add active to make it white -->
-                            <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">PRODOTTI</a>
-                        </li>
-                        <li class="nav-item">  <!-- add active to make it white -->
-                            <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">SERVIZI</a>
-                        </li>
-                        <li class="nav-item">  <!-- add active to make it white -->
-                            <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">TRATTAMENTI</a>
-                        </li>
-                        <li class="nav-item">  <!-- add active to make it white -->
-                            <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">LIBRERIA</a>
-                        </li>
-                        <li class="nav-item"> <!-- add active to make it white -->
-                            <a class="nav-link" href="#" data-target="#contattaci:not(.show)" data-toggle="collapse">CONTATTI</a>
-                        </li>
-                    </ul>
-                    <!-- <ul class="navbar-nav ml-auto"> 
-                        <li class="nav-item"> 
-                            <a class="nav-link" href="#contattaci" data-toggle="modal">contattaci</a>
-                        </li>
-                    </ul> -->
-                </div>
+        <nav class="navbar navbar-expand-md sticky-to navbar-light">
+            <a class="navbar-brand" href="#home" data-target="#home:not(.show)" data-toggle="collapse" data-parent="#page-content">
+                <img src="ParafarmaciaLetteraria_files/logo.svg" class="d-inline-block align-top" alt="" width="100" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar1">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">servizi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-target="#chisiamo:not(.show)" data-toggle="collapse">chi siamo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-target="#doveequando:not(.show)" data-toggle="collapse">dove e quando</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#contattaci" data-toggle="modal">contattaci</a>
+                    </li>
+                </ul>
             </div>
         </nav>
 
@@ -72,14 +45,14 @@
         <main id="page-content" class="container-fluid py-3 overflowauto">
             <div class="position-">
                 <!-- home -->
-                <div id="home" class="collapse show" data-parent="#page-content" >
+                <div id="home" class="collapse show" data-parent="#page-content">
 
                     <!-- <div class="container-fluid" >             -->
                        
                                 
                         <div class="container w-85">
 
-                            <div class="jumbotron bg-cover" >
+                            <div class="jumbotron bg-cover">
                                 <div class="row">
                                     <div class="col-sm-6">
                                   
@@ -91,7 +64,7 @@
                                             <hr class="my-4">
                                             <p>altro.</p>
                                             <p class="lead">
-                                                <a class="btn btn-outline-secondary btn-sm "  href="#" data-target="#chisiamo:not(.show)" data-toggle="collapse" role="button"> chi siamo </a>
+                                                <a class="btn btn-outline-secondary btn-sm " href="#" data-target="#chisiamo:not(.show)" data-toggle="collapse" role="button"> chi siamo </a>
                                             </p>
                                         </div>
                                         
@@ -102,7 +75,7 @@
                                         <div class="container ">
                                                     
                                             <!-- orari -->
-                                            <div class="card card-home "  style="width: 25rem;" >
+                                            <div class="card card-home " style="width: 25rem;">
                                                 <div class="card-body">
                                                     <h3 class="card-title"> <mark>orari</mark>: </h3>
                                                     <hr class="my-4">
@@ -129,21 +102,20 @@
                                         <div class="container">
 
                                             <!-- indirizzo -->
-                                            <div class="card card-home"   style="width: 25rem;">
+                                            <div class="card card-home" style="width: 25rem;">
                                                 <div class="card-body">
                                                     <h3 class="card-title"> <mark>indirizzo</mark>: </h3>
                                                     <hr class="my-4">
                                                     <h4 class="card-text"> via Carducci 9, Milano</h4>
                                                     <hr class="my-3">
-                                                    <button  class="btn btn-outline-secondary btn-sm" type="button" data-toggle="collapse" data-target="#mapCollapse" > 
+                                                    <button class="btn btn-outline-secondary btn-sm" type="button" data-toggle="collapse" data-target="#mapCollapse"> 
                                                         mappa
                                                     </button>
                                                 </div>
                                             </div>       
                                             <div class="collapse" id="mapCollapse">
                                                 <div class="card card-body">
-                                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.1661500317837!2d9.174164015939573!3d45.46645684131332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c151a8c9c49f%3A0xb6dbf884b4c9eb8a!2sVia%20Giosu%C3%A8%20Carducci%2C%209%2C%2020123%20Milano%20MI%2C%20Italia!5e0!3m2!1sit!2sfr!4v1606322806267!5m2!1sit!2sfr" 
-                                                    frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                                    <iframe src="ParafarmaciaLetteraria_files/embed.htm" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" frameborder="0"></iframe>
                                                 </div>
                                             </div>
 
@@ -151,7 +123,7 @@
                                         <div class="container">
                                             
                                             <!-- numeri -->
-                                            <div class="card card-home"  style="width: 25rem;">
+                                            <div class="card card-home" style="width: 25rem;">
                                                 <div class="card-body">
                                                     <h3 class="card-title"> <mark>numeri</mark>: </h3>
                                                     <hr class="my-4">
@@ -172,7 +144,7 @@
                                                         </div>
                                                     </div>
                                                     <hr class="my-4">
-                                                    <button href="#contattaci" data-toggle="modal" class="btn btn-outline-secondary btn-sm"> contattaci </button> </td>    
+                                                    <button href="#contattaci" data-toggle="modal" class="btn btn-outline-secondary btn-sm"> contattaci </button>     
                                                 </div>
                                             </div>
 
@@ -215,18 +187,22 @@
                 </div>
                 <!-- page 2 -->
                 <div id="chisiamo" class="collapse" data-parent="#page-content">
-                    <div class="about" >
-                        <div class="container" >
+                    <div class="about">
+                        <div class="container">
                           <h1 class="text-center"> chi siamo</h1>
                             <div class="row">
                               <div class="col-lg-4 col-md-4 col-sm-12">
-                                  <img src="images/logo.svg" class="img-fluid">
+                                  <img src="ParafarmaciaLetteraria_files/logo.svg" class="img-fluid">
                                   <!-- <span class="text-justify">photo caption</span> -->
                               </div>
                               <div class="col-lg-8 col-md-8 col-sm-12 desc">				
                                   <!-- <h3>Parafarmacia Letteraria</h3> -->
                                 <p>
-                                    Nella <mark>Parafarmacia Letteraria</mark> le Dottoresse <mark>Francesca Cattaneo</mark> ed <mark>Emanuela Messa</mark> vi accoglieranno con competenza, professionalità e cortesia per fornirvi i giusti consigli per la tutela del vostro benessere psico-fisico.                      Potrete trovare prodotti di alta qualità e a prezzi convenienti, nei seguenti ambiti:
+                                    Nella <mark>Parafarmacia Letteraria</mark> le Dottoresse <mark>Francesca Cattaneo</mark> ed <mark>Emanuela Messa</mark>
+ vi accoglieranno con competenza, professionalità e cortesia per 
+fornirvi i giusti consigli per la tutela del vostro benessere 
+psico-fisico.                      Potrete trovare prodotti di alta 
+qualità e a prezzi convenienti, nei seguenti ambiti:
                                 </p>
                                 <ul>
                                     <li> Farmaci da banco (OTC) </li>
@@ -241,7 +217,10 @@
                                     <li> Prodotti veterinari con e senza ricetta </li>
                                 </ul>
                                 <p>
-                                    Il nostro  <mark>“lato letterario”</mark> riguarderà una selezione di libri dedicati alla fitoterapia, alla naturopatia, agli integratori alimentari e al benessere degli amici animali.
+                                    Il nostro  <mark>“lato letterario”</mark>
+ riguarderà una selezione di libri dedicati alla fitoterapia, alla 
+naturopatia, agli integratori alimentari e al benessere degli amici 
+animali.
                                 </p>
                               </div>
                             </div>
@@ -258,8 +237,8 @@
                         <li> Bus 99,58 fermata Largo d'Ancona </li>
                     </ul>
                 </div>
-            </div>
-        </main>
+            </main></div>
+        
         <!-- footer -->
         <footer class="container-fluid bg-dark text-white mt-auto py-3">
             <div>.</div>
@@ -285,8 +264,7 @@
                                                 <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
                                            </div>
                                            <div class="form-group">
-                                                <textarea class="form-control form-control-lg">
-                                                    
+                                                <textarea class="form-control form-control-lg">                                                    
                                                 </textarea>
                                            </div>
                                            <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
@@ -301,7 +279,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    
 
 
 
@@ -310,8 +288,9 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-  </html>
+    <script src="ParafarmaciaLetteraria_files/jquery-3.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="ParafarmaciaLetteraria_files/popper.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="ParafarmaciaLetteraria_files/bootstrap.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  
+</body></html>

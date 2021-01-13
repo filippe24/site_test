@@ -6,7 +6,7 @@
 body{
 	padding: 0;
 	margin: 0;
-	background:#f4f4f4;
+	background:#eeede9;
 }
 html,h1,h2,h3,h4,h5,h6,a{
 	/* font-family: "Raleway"; */
@@ -17,51 +17,54 @@ html,h1,h2,h3,h4,h5,h6,a{
 /* main logo */
 .main-logo{
 	margin: 0em;
-	padding: 1em;
+	padding: 2em;
 }
 .main-logo-color{
 	background:#eeede9;
 }
+.green-color{
+	background:rgba(50, 120, 120, 1);
+}
+.uncolored-link{
+	color: inherit !important;
+}
 /* navbar */
 .navbar{
-	background:#0c5c55 !important;
+	background:rgba(50, 120, 120, 1);
+	/* max-height: 2.6em; */
 }
-.nav-link , .navbar-brand{
-	color: #ffffff;
-	cursor: pointer;
-}
-.nav-link{
-	color: #ffffff;
-	margin-right: 1em !important;
-}
-.nav-link:hover{
-	background: #0c5c55;
-	color: #ffffff;
-}
-.navbar-collapse{
-	justify-content: flex-end;
-}
-.navbar-toggler{
-	background:#4a7967 !important;
-	color: #7eceaf;
-	border-color: #4a7967;
-}
-.navbar-nav>li{
-	border-right: 3px solid #89b3af;
-}
-.navbar-nav>li:last-child{
-	border: none;
-}
-/* .navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
+/* vertical line */
+/* .nav-vl {
+    border-left: 3px solid #eeede9;
+	height: 1.5em;
+	align-self: center;
 } */
-/* .navbar-nav.navbar-center { 
-	position: absolute; 
-	left: 50%; 
-	transform: translatex(-50%); 
+.nav-link{
+	color: #ffffff !important;
+}
+
+.navbar-toggler-icon {
+	background-image: url('https://mdbootstrap.com/img/svg/hamburger1.svg?color=eeede9')  !important;
+	outline: none;
+    box-shadow: none;
+}
+/* .navbar-collapse{
+	justify-content: flex-start ;
 }  */
+.nav-link:hover{
+	background: rgba(30, 100, 100, 1);
+	/* color: rgba(200, 100, 100);
+	height: 30px; */
+}
+
+/* .home
+{
+	padding: 0;
+	margin: 0;
+	background:#a09e9e;	
+} */
+
+
 /*table style*/
  th {
 	padding: 20px;
@@ -89,7 +92,7 @@ html,h1,h2,h3,h4,h5,h6,a{
 .vl {
     border-left: 4px solid #7eceaf;
     height: 50px;
-  }
+}
 
 
 /* chi siamo */

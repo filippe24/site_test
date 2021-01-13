@@ -7,66 +7,67 @@
 	  <!-- add bootstrap css file -->
 	  <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style4.css">
 </head>
 <body>
-
 
     <div class="jumbotron-fluid main-logo-color">
         <div class="container">
             <div class="text-center  main-logo">
-                <img src="images/logo.svg" height="70" class="align-top" alt="Responsive image">
+                <a href="#" data-target="#home:not(.show)">
+                    <img src="images/logo.svg" height="70" class="align-top" alt="Responsive image" >
+                </a>
                 <h6>via Carducci 9 - Milano - 20123</h6>
             </div>
         </div>
     </div>   
-    <!-- <div class="text-center">
-        <img src="images/logo.svg" height="70" class="align-top" alt="Responsive image">
-        <h6>via Carducci 9 - Milano - 20123</h6>
-    </div> -->
+
+
 
     <div class="d-flex flex-column min-vh-100">
         
-        <!-- navbar -->
-        <nav class="navbar sticky-top navbar-expand-lg sticky-to navbar-dark ">
-            <div class="container"> 
-                <a class="navbar-brand" href="#home" data-target="#home:not(.show)" data-toggle="collapse" data-parent="#page-content">           
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar1">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbar1">
-                    <ul class="navbar-nav navbar-center">
-                        <li class="nav-item">  <!-- add active to make it white -->
-                            <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">HOME</a>
-                        </li>     
-                        <li class="nav-item "> <!-- add active to make it white -->
-                            <a class="nav-link" href="#" data-target="#chisiamo:not(.show)" data-toggle="collapse">CHI SIAMO</a>
-                        </li>
-                        <li class="nav-item">  <!-- add active to make it white -->
-                            <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">PRODOTTI</a>
-                        </li>
-                        <li class="nav-item">  <!-- add active to make it white -->
-                            <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">SERVIZI</a>
-                        </li>
-                        <li class="nav-item">  <!-- add active to make it white -->
-                            <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">TRATTAMENTI</a>
-                        </li>
-                        <li class="nav-item">  <!-- add active to make it white -->
-                            <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">LIBRERIA</a>
-                        </li>
-                        <li class="nav-item"> <!-- add active to make it white -->
-                            <a class="nav-link" href="#" data-target="#contattaci:not(.show)" data-toggle="collapse">CONTATTI</a>
-                        </li>
-                    </ul>
-                    <!-- <ul class="navbar-nav ml-auto"> 
-                        <li class="nav-item"> 
-                            <a class="nav-link" href="#contattaci" data-toggle="modal">contattaci</a>
-                        </li>
-                    </ul> -->
-                </div>
+
+        <!-- header -->
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler order-first" type="button" data-toggle="collapse" data-target="#collapsingNavbarSm">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="collapsingNavbarSm">
+                <ul class="navbar-nav">
+                    <div class="nav-vl"></div>
+                    <li class="nav-item">  <!-- add active to make it white -->
+                        <a class="nav-link" href="#" data-target="#home:not(.show)" data-toggle="collapse" data-parent="#page-content">HOME</a>
+                    </li>
+                    <div class="nav-vl"></div>
+                    <li class="nav-item "> <!-- add active to make it white -->
+                        <a class="nav-link" href="#" data-target="#chisiamo:not(.show)" data-toggle="collapse">CHI SIAMO</a>
+                    </li>
+                    <div class="nav-vl"></div>
+                    <li class="nav-item">  <!-- add active to make it white -->
+                        <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">PRODOTTI</a>
+                    </li>
+                    <div class="nav-vl"></div>
+                    <li class="nav-item">  <!-- add active to make it white -->
+                        <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">SERVIZI</a>
+                    </li>
+                    <div class="nav-vl"></div>
+                    <li class="nav-item">  <!-- add active to make it white -->
+                        <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">TRATTAMENTI</a>
+                    </li>
+                    <div class="nav-vl"></div>
+                    <li class="nav-item">  <!-- add active to make it white -->
+                        <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">LIBRERIA</a>
+                    </li>
+                    <div class="nav-vl"></div>
+                    <li class="nav-item"> <!-- add active to make it white -->
+                        <a class="nav-link" href="#" data-target="#contattaci:not(.show)" data-toggle="collapse">CONTATTI</a>
+                    </li>
+                    <div class="nav-vl"></div>
+                </ul>
             </div>
         </nav>
+
 
         <!-- pages -->
         <main id="page-content" class="container-fluid py-3 overflowauto">
@@ -74,9 +75,7 @@
                 <!-- home -->
                 <div id="home" class="collapse show" data-parent="#page-content" >
 
-                    <!-- <div class="container-fluid" >             -->
-                       
-                                
+                    <!-- <div class="container-fluid" >             -->  
                         <div class="container w-85">
 
                             <div class="jumbotron bg-cover" >
@@ -260,10 +259,56 @@
                 </div>
             </div>
         </main>
+
+
+
+
+
         <!-- footer -->
-        <footer class="container-fluid bg-dark text-white mt-auto py-3">
-            <div>.</div>
+        <footer class="container-fluid green-color py-2">
         </footer>
+        <footer class="jumbotron-fluid main-logo-color">
+            <div class="container">
+                <div class="row justify-content-md-center align-items-center">
+                    <div class="col-md-auto">
+                        <div class="row ">
+                            <h5 class="card-text">telefono: <a class="uncolored-link"  href="tel:+390209971227">+39 02.09.97.12.27</a></h5>
+                        </div>
+                        <div class="row">
+                            <h5 class="card-text">whatsapp: <a class="uncolored-link"  href="tel:+393401133846">+39 340.11.33.846</a></h5>
+                        </div>
+                    </div>
+                    <div class="col-md-auto">
+                        <img src="images/logos/logoFarmaciaGray.png" height="140" class="align-top" alt="Responsive image" >
+                    </div>
+                    <div class="col-md-auto">
+                        <div class="row">
+                            <h5 class="card-text">info@parafarmacialetteraria.it</h5>
+                        </div>
+                        <div class="row">
+                            <h5 class="card-text">www.parafarmacialetteraria.it</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>"
+        <footer class="container">
+            <div class="text-center  main-logo">
+                <h6>seguici sui social</h6>
+                <a href="https://www.facebook.com/parafarmacialetteraria">
+                    <img src="images/logos/facebookGray.png" width="90" class="align-top" alt="Responsive image">
+                </a>
+                <a href="https://www.instagram.com/parafarmacialetteraria/">
+                    <img src="images/logos/instagramGray.png" width="90" class="align-top" alt="Responsive image" >
+                </a>
+            </div>
+        </footer>   
+        <footer class="container-fluid bg-dark text-white mt-auto py-3">
+            <p class="text-center">2020 Parafarmacia Letteraria. Tutti i diritti riservati.</p>
+        </footer>
+
+
+
 
         <!-- modal contattaci -->
         <div id="contattaci" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
