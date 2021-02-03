@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	  <title>Parafarmacia Letteraria </title>
-	  <meta charset="utf-8">
-	  <meta name="viewport" content="width=device-width, initial-scale=1">
-	  <!-- add bootstrap css file -->
-	  <!-- Latest compiled and minified CSS -->
+    <title>Parafarmacia Letteraria </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- add bootstrap css file -->
+    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style4.css">
 </head>
@@ -36,7 +36,7 @@
             <div class="navbar-collapse collapse" id="collapsingNavbarSm">
                 <ul class="navbar-nav">
                     <div class="nav-vl"></div>
-                    <li class="nav-item">  <!-- add active to make it white -->
+                    <li class="nav-item active">  <!-- add active to make it white -->
                         <a class="nav-link" href="#" data-target="#home:not(.show)" data-toggle="collapse" data-parent="#page-content">HOME</a>
                     </li>
                     <div class="nav-vl"></div>
@@ -45,7 +45,11 @@
                     </li>
                     <div class="nav-vl"></div>
                     <li class="nav-item">  <!-- add active to make it white -->
-                        <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">PRODOTTI</a>
+                        <a class="nav-link" href="#" data-target="#prodotti:not(.show)" data-toggle="collapse" data-parent="#page-content">PRODOTTI</a>
+                    </li>
+                    <div class="nav-vl"></div>
+                    <li class="nav-item">  <!-- add active to make it white -->
+                        <a class="nav-link" href="#" data-target="#doveequando:not(.show)" data-toggle="collapse" data-parent="#page-content">DOVE E QUANDO</a>
                     </li>
                     <div class="nav-vl"></div>
                     <li class="nav-item">  <!-- add active to make it white -->
@@ -53,15 +57,15 @@
                     </li>
                     <div class="nav-vl"></div>
                     <li class="nav-item">  <!-- add active to make it white -->
-                        <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">TRATTAMENTI</a>
+                        <a class="nav-link" href="#" data-target="#trattamenti:not(.show)" data-toggle="collapse" data-parent="#page-content">TRATTAMENTI</a>
                     </li>
                     <div class="nav-vl"></div>
                     <li class="nav-item">  <!-- add active to make it white -->
-                        <a class="nav-link" href="#" data-target="#servizi:not(.show)" data-toggle="collapse" data-parent="#page-content">LIBRERIA</a>
+                        <a class="nav-link" href="#" data-target="#libreria:not(.show)" data-toggle="collapse" data-parent="#page-content">LIBRERIA</a>
                     </li>
                     <div class="nav-vl"></div>
                     <li class="nav-item"> <!-- add active to make it white -->
-                        <a class="nav-link" href="#" data-target="#contattaci:not(.show)" data-toggle="collapse">CONTATTI</a>
+                        <a class="nav-link" href="#" data-target="#contatti:not(.show)" data-toggle="collapse">CONTATTI</a>
                     </li>
                     <div class="nav-vl"></div>
                 </ul>
@@ -72,7 +76,8 @@
         <!-- pages -->
         <main id="page-content" class="container-fluid py-3 overflowauto">
             <div class="position-">
-                <!-- home -->
+                
+                <!-- page 1: home -->
                 <div id="home" class="collapse show" data-parent="#page-content" >
                     
                     <div class="jumbotron-fluid bg-cover">
@@ -100,30 +105,8 @@
 
                 </div>
 
-                <!-- page servizi -->
-                <div id="servizi" class="collapse" data-parent="#page-content">                  
-                    <h1>servizi</h1>               
-                    <p>
-                        Nella <mark>Parafarmacia Letteraria</mark> puoi usufruire dei seguenti servizi:
-                    </p>
-                    <ul>
-                        <li> <mark>Prenotazione</mark> prodotti tramite telefono, whatsapp o email </li>
-                        <li> Avviso all'arrivo dei prodotti ordinati </li>
-                        <li> Consegna a domicilio </li>
-                        <li> Consegna tramite <mark>Glovo</mark> </li>
-                        <li> Trattamenti terapeutici </li>
-                        <li> Foratura delle orecchie </li>
-                        <li> Misurazione della pressione </li>
-                        <li> Fornitura e reintegro cassette pronto soccorso </li>
-                        <li> Prodotti veterinari con e senza ricetta </li>
-                        <li> Prodotti sportivi </li>
-                        <li> Prodotti per bambini </li>
-                        <li> ... </li>
-                    </ul>      
-                    </div>            
 
-                </div>
-                <!-- page 2 -->
+                <!-- page 2: chi siamo -->
                 <div id="chisiamo" class="collapse" data-parent="#page-content">
                     <div class="about" >
                         <div class="container" >
@@ -158,10 +141,204 @@
                         </div>
                     </div>
                 </div>
-                <!-- page 3 -->
+
+                <!-- page 3: prodotti -->
+                <div id="prodotti" class="collapse" data-parent="#page-content">
+                    <div class="container">
+                        <h1>prodotti</h1>               
+                        <p>
+                            Nella <mark>Parafarmacia Letteraria</mark> puoi trovare i seguenti prodotti:
+                        </p>
+                        <div class="list-group panel list-group-flush"  style="max-width: 36rem;">
+                            
+                            <a href="#Omoterapia" class="list-group-item list-color list-link" data-toggle="collapse" >Omoterapia</a>
+                            <div class="collapse" id="Omoterapia">
+                                <div class="container">
+                                    Descrizione dei vari prodotti di omoterapia, e eventuali foto 
+                                </div>
+                            </div>
+                            
+                            <a href="#Fiseoterapia" class="list-group-item list-color list-link" data-toggle="collapse" >Fiseoterapia</a>
+                            <div class="collapse" id="Fiseoterapia">
+                                <div class="container">
+                                    Descrizione dei vari prodotti di fiseoterapia, e eventuali foto 
+                                </div>
+                            </div>
+
+                            <a href="#Filorga" class="list-group-item list-color list-link" data-toggle="collapse" >Filorga</a>
+                            <div class="collapse" id="Filorga">
+                                <div class="container">
+                                    Descrizione dei vari prodotti di Filorga, e eventuali foto 
+                                </div>
+                            </div>
+
+                            <a href="#Avene" class="list-group-item list-color list-link" data-toggle="collapse" >Avene</a>
+                            <div class="collapse" id="Avene">
+                                <div class="container">
+                                    Descrizione dei vari prodotti di Avene, e eventuali foto 
+                                </div>
+                            </div>
+
+                            <a href="#Rilasil" class="list-group-item list-color list-link" data-toggle="collapse" >Rilasil</a>
+                            <div class="collapse" id="Rilasil">
+                                <div class="container">
+                                    Descrizione dei vari prodotti di Rilasil, e eventuali foto 
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>              
+
+                </div>            
+
+
+                <!-- page 4: dove e quando -->
                 <div id="doveequando" class="collapse" data-parent="#page-content">
-                    <h1>Dove e quando</h1> 
-                    ome arrivare?
+                    <div class="container">
+                        <h1>dove e quando</h1> 
+
+                        <div class="list-group panel list-group-flush"  style="max-width: 36rem;">
+                            
+                            <a href="#mappa" class="list-group-item list-color list-link" data-toggle="collapse" > Come arrivare? </a>
+                            <div class="collapse" id="mappa">
+                                <div class="container">
+                                    <ul class="list-group list-color list-group-flush" style="max-width: 36rem;">
+                                        <li class="list-group-item list-color "> Fermata metropolitana <mark>CADORNA M2</mark></li>
+                                        <li class="list-group-item list-color "> Tram numero <mark>16,19</mark> fermata <mark>Largo d'Ancona</mark> </li>
+                                        <li class="list-group-item list-color "> Bus <mark>99,58</mark> fermata <mark>Largo d'Ancona</mark> </li>
+                                    </ul> 
+                                    <div class="card card-body">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.1661500317837!2d9.174164015939573!3d45.46645684131332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c151a8c9c49f%3A0xb6dbf884b4c9eb8a!2sVia%20Giosu%C3%A8%20Carducci%2C%209%2C%2020123%20Milano%20MI%2C%20Italia!5e0!3m2!1sit!2sfr!4v1606322806267!5m2!1sit!2sfr" 
+                                        frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                    </div>                               
+                                </div>
+                            </div>
+                            
+                            <a href="#orari" class="list-group-item list-color list-link" data-toggle="collapse" >Orari</a>
+                            <div class="collapse" id="orari">
+                                <div class="container">
+                                    <ul class="list-group list-color list-group-flush" style="max-width: 36rem;">
+                                        <li class="list-group-item list-color ">
+                                            
+                                            <div class="row">
+                                                <div class="col-sm">
+                                                    lun-ven
+                                                </div>
+                                                <div class="col-sm">
+                                                    8:30 - 19:30 
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item list-color ">
+                                            
+                                            <div class="row">
+                                                <div class="col-sm">
+                                                    sab
+                                                </div>
+                                                <div class="col-sm">
+                                                    9:00 - 13:00 
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul> 
+                                    
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>              
+
+                </div>         
+
+
+                <!-- page 5: servizi -->
+                <div id="servizi" class="collapse" data-parent="#page-content">
+                    <div class="container">
+                        <h1>servizi</h1>               
+                        <p>
+                            Nella <mark>Parafarmacia Letteraria</mark> puoi usufruire dei seguenti servizi:
+                        </p>
+
+                        <ul>
+                            <ul class="list-group list-color list-group-flush" style="max-width: 36rem;">
+                                <li class="list-group-item list-color "> <mark>Prenotazione</mark> prodotti tramite telefono, whatsapp o email </li>
+                                <li class="list-group-item list-color "> Avviso all'arrivo dei prodotti ordinati </li>
+                                <li class="list-group-item list-color "> Consegna a domicilio </li>
+                                <li class="list-group-item list-color "> Consegna tramite <mark>Glovo</mark> </li>
+                                <li class="list-group-item list-color "> Trattamenti terapeutici </li>
+                                <li class="list-group-item list-color "> Foratura delle orecchie </li>
+                                <li class="list-group-item list-color "> Misurazione della pressione </li>
+                                <li class="list-group-item list-color "> Fornitura e reintegro cassette pronto soccorso </li>
+                                <li class="list-group-item list-color "> Prodotti veterinari con e senza ricetta </li>
+                                <li class="list-group-item list-color "> Prodotti sportivi </li>
+                                <li class="list-group-item list-color "> Prodotti per bambini </li>
+                                <li class="list-group-item list-color "> ... </li>
+                            </ul>
+                        </ul>
+                    </div>                                
+                </div>    
+
+
+
+                <!-- page 6: trattamenti -->
+                <div id="trattamenti" class="collapse" data-parent="#page-content">
+                    <div class="container">
+                        <h1>(coming soon)</h1>    
+                    </div>
+                    <div id="MainMenu">
+                        <div class="container">
+                            <div class="row" >
+                                <div class="col-4">
+                                    <div class="list-group panel list-group-flush list-group-mine " id="list-tab" role="tablist" >
+                                    <a class="list-group-item list-color list-group-item-action " id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">Home</a>
+                                    <a class="list-group-item list-color list-group-item-action " id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Profile</a>
+                                    <a class="list-group-item list-color list-group-item-action " id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Messages</a>
+                                    <a class="list-group-item list-color list-group-item-action " id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Settings</a>
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="tab-content" id="nav-tabContent">
+                                    <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">...</div>
+                                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">...</div>
+                                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">...</div>
+                                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>     
+                </div>
+
+                <!-- page 7: libreria -->
+                <div id="libreria" class="collapse" data-parent="#page-content">
+                    <div class="container">
+                        <h1>(coming soon)</h1>    
+                    </div>
+                    <div id="MainMenu">
+                        <div class="container">
+
+                                <div class="list-group panel list-group-flush">
+                                    <a href="#why" class="list-group-item list-color list-link" data-toggle="collapse" data-parent="#MainMenu">Menu 1</a>
+                                    <div class="collapse" id="why">
+                                          descrizione
+                                    </div>
+                                    <a href="#joinus" class="list-group-item list-color list-link" data-toggle="collapse" data-parent="#MainMenu">Menu 2</a>
+                                    <div class="collapse" id="joinus">
+                                          descrizione
+                                    </div>
+                                </div>
+
+                        </div>
+                    </div>
+                                       
+                </div>
+
+                <!-- page 7: contatti -->
+                <div id="contatti" class="collapse" data-parent="#page-content">
+                    <h1>contatti</h1> 
+                    come arrivare?
                     <ul>
                         <li> Fermata metropolitana CADORNA M2 </li>
                         <li> Tram numero 16,19 fermata Largo d'Ancona</li>
@@ -178,8 +355,8 @@
         <!-- footer -->
         <footer class="container-fluid green-color py-2">
         </footer>
-        <footer class="jumbotron-fluid main-logo-color">
-            <div class="container">
+        <footer class="jumbotron-fluid main-logo-color ">
+            <div class="container text-center">
                 <div class="row justify-content-md-center align-items-center">
                     <div class="col-md-auto">
                         <div class="row ">
@@ -190,14 +367,16 @@
                         </div>
                     </div>
                     <div class="col-md-auto">
-                        <img src="images/logos/logoFarmaciaGray.png" height="140" class="align-top" alt="Responsive image" >
+                        <img src="images/logos/croceGray.png" height="140" class="align-top" alt="Responsive image" >
                     </div>
                     <div class="col-md-auto">
                         <div class="row">
                             <h5 class="card-text">info@parafarmacialetteraria.it</h5>
                         </div>
                         <div class="row">
-                            <h5 class="card-text">www.parafarmacialetteraria.it</h5>
+                            <a class="uncolored-link" href="http://www.parafarmacialetteraria.it">
+                                <h5 class="card-text">www.parafarmacialetteraria.it</h5>
+                            </a>
                         </div>
                     </div>
                 </div>

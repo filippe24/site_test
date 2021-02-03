@@ -56,7 +56,12 @@ html,h1,h2,h3,h4,h5,h6,a{
 	/* color: rgba(200, 100, 100);
 	height: 30px; */
 }
-
+.navbar-custom .nav-item.active .nav-link{
+	background: rgb(100, 30, 30);
+	color: rgb(37, 30, 100);
+	/* color: rgba(200, 100, 100);
+	height: 30px; */
+}
 /* .home
 {
 	padding: 0;
@@ -103,6 +108,65 @@ html,h1,h2,h3,h4,h5,h6,a{
     border-left: 4px solid #7eceaf;
     height: 50px;
 }
+
+/* list group color */
+.list-color {
+	background:#eeede9;
+	border-left: 0 none;
+	border-right: 0 none;
+    /* color:#eeede9; */
+}
+.list-group-item[aria-expanded="true"]{
+	background-color: #fcf8e3 !important;
+	border-color: #fcf8e3;
+	color: black !important;
+}
+.list-group-item:hover {
+	background-color: #7eceaf !important;
+}
+/* .list-group panel.active {
+	background-color: #7eceaf;
+	border-color: #7eceaf;
+	color: white;
+	text-emphasis-color: white;
+  }
+.list-text-white{
+	color: white;
+	text-emphasis-color: white;
+} */
+/* .list-group-mine .list-group-item {
+	background-color: rgba(30, 100, 100, 1);
+	border-top: 1px solid #0091b5;
+	border-left-color: #fff;
+	border-right-color: #fff;
+  } */
+  
+.list-group-mine .list-group-item:hover {
+	background-color: #7eceaf;
+}
+.list-group-mine .list-group-item:active {
+	background-color: rgba(30, 100, 100, 1);
+	color: white;
+	text-emphasis-color: white;
+}
+/* unvisited link */
+.list-link:link {
+	color: black;
+}
+/* visited link */
+.list-link:visited {
+	color: black;
+}
+/* mouse over link */
+.list-link:hover {
+	color: black;
+}
+/* selected link */
+.list-link:active {
+color: black;
+}
+
+
 
 
 /* chi siamo */
